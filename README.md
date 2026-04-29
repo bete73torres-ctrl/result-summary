@@ -8,7 +8,7 @@ Projeto desenvolvido com HTML e CSS.
 
 ## 📸 Preview
 
-![Preview do projeto](./design/desktop-design.jpg)
+![Preview do projeto](design/desktop-design.jpg)
 
 ---
 
