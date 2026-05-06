@@ -1,6 +1,6 @@
-# result-summary
-Projeto de resumo de resultado com HTML e CSS
 # 💻 Result Summary
+
+[🔗 Ver projeto online](https://bete73torres-ctrl.github.io/result-summary/)
 
 Projeto desenvolvido com HTML e CSS.
 
@@ -9,6 +9,8 @@ Projeto desenvolvido com HTML e CSS.
 ## 📸 Preview
 
 ![Preview do projeto](https://raw.githubusercontent.com/bete73torres-ctrl/result-summary/main/desktop-design.jpg)
+
+---
 
 ## 🚀 Tecnologias
 
@@ -36,4 +38,3 @@ Praticar layout moderno e responsivo.
 
 Elisabete Torres
 
----
