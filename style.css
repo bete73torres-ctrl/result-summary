@@ -1,0 +1,243 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: #ecf2ff;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .container {
+    display: flex;
+    width: 600px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+
+  }
+  .resultado{
+    background: linear-gradient(#1527c5,hsl(224,85%,65%));
+    color: white;
+    padding: 30px;
+    border-radius: 20px 0 0 20px;
+    text-align: center;
+    width: 50%px;
+  }
+  .circulo{
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    border-radius: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(
+  to bottom,
+  hsla(256, 72%, 46%, 1),
+  hsla(241, 72%, 46%, 0)
+);
+  box-shadow: inset 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+    
+
+        
+  
+    
+  .summary {
+    background: white;
+    padding: 30px;
+    border-radius: 0 20px 20px 0;
+    width: 50%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0;
+  }
+  button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 30px;
+    background-color: hsl(224, 30% ,27%);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    
+  }
+  button:hover {
+    background: linear-gradient(
+      to right,
+      hsl(252, 100%, 67%),
+      hsl(241, 81%, 54%)
+    );
+  }
+  
+  .circulo h1 {
+    font-size: 56px;
+    font-weight: 800;
+    margin: 0;
+    line-height: 1;
+    
+  }
+  .circulo span{
+    font-size: 13px;
+    opacity: 0.6;
+    letter-spacing: 1px;
+  }
+  li {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: 500;
+  }
+  li:nth-child(1){
+    background: #fff6f5;
+    color:hsl(0, 100%, 67%)
+  }
+
+  li:nth-child(2) {
+    background: #fffbf2;
+    
+    color: hsl(39, 100%, 56%);
+  }
+  li:nth-child(3) {
+    background: #f2fbfa;
+    color: hsl(166, 100%, 37%);
+  }
+  
+  li:nth-child(4) {
+    background: #f3f3fd;
+    color:hsl(234, 85%, 45%);
+  }
+
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 10px;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  li span {
+    white-space: nowrap;
+    font-weight: bold;
+    white-space: nowrape;
+  }
+
+  span {
+    color: #999;
+    font-weight: 500;
+  }
+  span strong {
+    color: #303b59;
+    font-weight: 800;
+
+  }
+  
+  
+   @media ( max-width:600px ){
+        .container{
+          flex-direction: column;
+          width: 90%;
+          margin: 0 auto;
+        }
+        
+        .summary{
+          width: 100%;
+        }
+   }
+    
+        
+        .resultado {
+          border-radius: 20px;
+        }
+        .summary {
+          border-radius: 20px 20px 0 0;
+        }
+        body {
+          display: flex;
+          justify-content: center;
+          /*align-items: center;*/
+          /*height: 100vh;*/
+          background: #ecf2ff;
+        }
+        
+       
+          @media (max-width:600px){
+            .summary{
+              padding: 20px;
+              font: 14px;
+            }
+          }
+    
+    .resultado,
+    .summary {
+      width: 100%;
+    }
+    .resultado {
+      border-radius: 20px 20 px 0 0;
+    }
+    .summary {
+      border-radius: 0 0 20px 20px;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #ecf2ff;
+    }
+    
+   
+      @media (max-width:600px){
+        .summary{
+          padding: 20px;
+          font: 14px;
+        }
+      }
+
+       h1{
+        font-size: 40px;
+      }
+    
+      h2 {
+        font-size: 18px;
+      }
+    
+    .paragrafo{
+      color: hsl(221, 100%, 96%);
+      opacity: 0.7;
+      line-height: 1.4;
+    }
+
+  
+  
