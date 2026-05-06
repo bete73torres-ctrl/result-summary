@@ -8,9 +8,7 @@ Projeto desenvolvido com HTML e CSS.
 
 ## 📸 Preview
 
-![Preview do projeto](![Preview do projeto](https://raw.githubusercontent.com/bete73torres-ctrl/resumo-dos-resultados/main/design/desktop-design.jpg))
-
----
+![Preview do projeto](https://raw.githubusercontent.com/bete73torres-ctrl/result-summary/main/desktop-design.jpg)
 
 ## 🚀 Tecnologias
 
